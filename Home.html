@@ -1,0 +1,112 @@
+<?php 
+    include('server1.php');
+?>
+<html>
+<head><title>SHEIN</title>
+
+<style>
+.topnave{
+background-color:#051D2E;
+overflow:hidden;
+}
+.topnave a{
+float:left;
+color:#f4fafe;
+text-align:center;
+padding:14px 16px;
+text-decoration:none;
+font-size:17px;
+}
+.topnave a:hover{
+background-color:#deeffc;
+color:#3e5566;
+}
+
+.topnave a.active{
+background-color:#94cbf4;
+color:#f4fafe;
+}
+footer {
+text-align:center;
+padding:4px;
+background-color:#a9d5f6;
+color:#f4fafe
+}
+.login{
+text-align: center ;
+background-color:#cee7fa;
+color:black;
+margin:20px;
+padding:30px;
+}
+</style>
+</head>
+<body style="background-color:#deeffc;">
+
+<div class="topnave">
+
+
+<a class="active"  href="Register.html">Register</a>
+<a href="Home.html"> Home</a>
+<a href="About.html"> About </a> 
+<a href="Contact.html">Contact </a>
+<a href="Product.html">Product</a>
+<a href="Feedback.html">Feedback</a>
+
+<input type="text" placeholder="Search...">
+</div>
+
+
+<div style="text-align: center ;">
+<img src="Shein-Logo.png" width="400" hight="100">
+</div>
+<div>
+<form>
+<div class="login" >
+<h1> Please Log In</h1>
+<form method="post" action="server1.php">
+    <div class="inp">
+        <label>Username</label>
+        <input type="text" name="un" required> <br><br>
+    </div>
+    <div class="inp">
+        <label>Password</label>
+        <input type="password" name="psw1" required><br><br>
+    </div>
+    <div class="inp">
+        <button type="submit" name="login" class="btn">Sign in</button>
+    </div>
+    <p>Not yet a member? <a href="Register.html">Sign up</a></p>
+
+</div>
+</form>
+
+
+
+
+
+<footer>
+<p>SHEIN</p>
+<p><a href="https://m.shein.com/us/user/message">Email Us: Info@shein.com</a></p>
+<p><a href="https://www.instagram.com/sheinofficial?igshid=OGQ5ZDc2ODk2ZA==">Instagram: sheeinofficial</a></p>
+<p><a href="https://x.com/shein_official?s=11"> X: SHEIN</a></p>
+<p><a href="https://www.facebook.com/SHEINOFFICIAL?mibextid=LQQJ4d"> Facebook: SHEIN</a></p>
+</footer>
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+</html>

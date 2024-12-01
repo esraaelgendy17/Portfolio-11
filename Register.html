@@ -1,0 +1,79 @@
+ <?php 
+    include('server1.php');
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="https://unpkg.com/boltcss/bolt.min.css">
+    <style>
+        .topnav{
+     background-color:#051D2E;
+     overflow:hidden;
+}
+.topnav a {
+       float:left;
+       color:#f4fafe;
+       text-align :center;
+       padding:14px  16px;
+       text-decoration:none;
+       font-size:20px:
+}
+.topnav a:hover{
+          background-color:#deeffc;
+          color:#3e5566;
+}
+.topnav a.active {
+          background-color:#94cbf4;
+          color:#f4fafe;
+}
+footer {
+text-align:center;
+padding:4px;
+background-color:#a9d5f6;
+color:#f4fafe
+}
+
+    </style>
+</head>
+<body style="background-color:#deeffc;">
+    <div class='topnav'>
+        <a class="active"  href="Register.html">Register</a>
+      <a href="Home.html"> Home</a>
+      <a href="About.html"> About </a> 
+      <a href="Contact.html">Contact </a>
+      <a href="Product.html">Product</a>
+      <a href="Feedback.html">Feedback</a>
+        <input type="text" placeholder="Search...">
+  </div>
+        <form>
+            <label>Name</label>
+            <input type="text" id="un" name="name" required>
+        </div>
+        <div>
+            <label>Email</label>
+            <input type="email" id="em" name="eml" required>
+        </div>
+        <div>
+            <label>Password</label>
+            <input type="password" id="psw1" name="pass" required>
+        </div>
+        <div>
+            <label>Confirm password</label>
+            <input type="password" id="psw2" name="cpass" required>
+        </div>
+        <input type="submit" name="sub" value="Sign Up">
+    </form>
+    
+
+    <footer>
+        <p>SHEIN</p>
+        <p><a href="https://m.shein.com/us/user/message">Email Us: Info@shein.com</a></p>
+        <p><a href="https://www.instagram.com/sheinofficial?igshid=OGQ5ZDc2ODk2ZA==">Instagram: sheeinofficial</a></p>
+        <p><a href="https://x.com/shein_official?s=11"> X: SHEIN</a></p>
+        <p><a href="https://www.facebook.com/SHEINOFFICIAL?mibextid=LQQJ4d"> Facebook: SHEIN</a></p>
+        </footer>
+</body>
+</html>
